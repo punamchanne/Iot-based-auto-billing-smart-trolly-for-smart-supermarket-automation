@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://iot-based-auto-billing-smart-trolly-for.onrender.com/api',
 });
 
 // Adding token to request if available
